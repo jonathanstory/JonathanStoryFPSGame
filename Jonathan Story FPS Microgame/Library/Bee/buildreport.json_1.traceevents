@@ -1,0 +1,621 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1710725521500146, "dur": 2322252, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725521500426, "dur": 5090, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725521505519, "dur": 79676, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725521585236, "dur": 1578977, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725523164215, "dur": 656623, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725523820840, "dur": 1557, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725523822763, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1710725522882720, "dur": 257704, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710725522883727, "dur": 72028, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710725523120624, "dur": 4498, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710725523125125, "dur": 15292, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710725523125815, "dur": 13885, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710725523144865, "dur": 1309, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710725523144007, "dur": 2191, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725523822840, "dur": 121, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1710725523251304, "dur":1056, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523252367, "dur":308, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1710725523252707, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1710725523252739, "dur":628, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1710725523253398, "dur":724, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523254122, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523804460, "dur":352, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523804812, "dur":199, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805011, "dur":45, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805056, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805064, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805066, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805074, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805076, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805083, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805085, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805090, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805092, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805099, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805101, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805106, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805108, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805114, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805116, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805121, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805123, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805129, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805131, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805136, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805138, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805144, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805146, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805152, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805154, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805160, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805162, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805167, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805169, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805174, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805191, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523805215, "dur":8152, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1710725523252922, "dur":1212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523254140, "dur":2088, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523256248, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1710725523256254, "dur":3619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523259879, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1710725523259887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523260066, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1710725523262073, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1710725523262114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523262139, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1710725523265675, "dur":157604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1710725523423283, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523423293, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1710725523425388, "dur":43458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710725523468854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523468864, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710725523470139, "dur":249030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710725523719175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710725523719184, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710725523720835, "dur":83641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523252955, "dur":1189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523254144, "dur":2092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523256237, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1710725523257797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523260918, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1710725523264253, "dur":94637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523358897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523359171, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523361364, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523361677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523361683, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523366834, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523367139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523367149, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523368549, "dur":35108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523403666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523403681, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523404689, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523404838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523404847, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523405774, "dur":39205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523444985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523444994, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523446697, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523446819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523446824, "dur":5854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523452696, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523453506, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523453516, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523456429, "dur":149861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523606298, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523606311, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710725523608196, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1710725523608368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523608376, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1710725523610106, "dur":29699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1710725523639815, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710725523639831, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1710725523641479, "dur":163033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523253009, "dur":1141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523254151, "dur":2078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523256236, "dur":39029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1710725523295271, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523295521, "dur":3317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1710725523298857, "dur":33436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523332300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523332345, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523334578, "dur":33091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523367672, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523367679, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523369521, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523369773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523369780, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523370715, "dur":58830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523429551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523429559, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523435270, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523435469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523435477, "dur":8601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523444096, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523444256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523444262, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523446745, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523447265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523447272, "dur":4786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523452083, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523452666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523452675, "dur":3977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523456668, "dur":219329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523676010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710725523676025, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710725523678493, "dur":126015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523253150, "dur":1022, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523254172, "dur":2058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523256236, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1710725523256325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523264142, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1710725523266315, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1710725523266358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523267565, "dur":26623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1710725523294228, "dur":37804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523332039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523332050, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523334579, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523334763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523334771, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523337488, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523337656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523337661, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523341619, "dur":32782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523374408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523374418, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523378489, "dur":36079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523414575, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523414585, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523415785, "dur":41514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523457303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523457309, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523458814, "dur":39588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523498408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523498418, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523499869, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523501035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523501043, "dur":7236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523508299, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523508526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523508531, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523512884, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523513080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523513087, "dur":19314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523532419, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523532561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523532568, "dur":14893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523547484, "dur":255674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523803163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710725523803171, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710725523804411, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1710725523804413, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523253107, "dur":1058, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523254166, "dur":2067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523256237, "dur":1558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1710725523257798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523260919, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1710725523264278, "dur":183054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710725523447336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523447362, "dur":8203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710725523455592, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710725523456420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523456434, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710725523458561, "dur":108948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710725523567515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523567525, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710725523569504, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1710725523569541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523569613, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1710725523573305, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1710725523573325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710725523573336, "dur":128407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1710725523701767, "dur":102728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523253058, "dur":1100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523254158, "dur":2073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523256237, "dur":13143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1710725523269384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523269393, "dur":10531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1710725523279945, "dur":34466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523314421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523314433, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523318846, "dur":88981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523407833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523407842, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523411869, "dur":35286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523447161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523447169, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523451934, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523452069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523452075, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523455995, "dur":333979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523789979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710725523789987, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710725523792875, "dur":11585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523253186, "dur":993, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523254179, "dur":2055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523256235, "dur":12601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1710725523268839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523268843, "dur":10797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1710725523279664, "dur":35222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523314890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523314896, "dur":4101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523319026, "dur":56040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523375073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523378413, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523382590, "dur":38619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523421218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523421230, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523422323, "dur":61651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523483981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523484014, "dur":3014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523487046, "dur":56671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523543723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523543762, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523545495, "dur":5586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523551087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523551097, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523556420, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523556621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523556632, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523557816, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.Gameplay.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523557995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523558004, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.Gameplay.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523561622, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.Game.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523561770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523561777, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.Game.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523562635, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.AI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523562757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523562763, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/fps.AI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523564562, "dur":2406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523567006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523567015, "dur":5117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710725523572152, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1710725523572178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523572186, "dur":10104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1710725523582314, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523582333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523582341, "dur":9221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523591901, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523591928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523591936, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523595125, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1710725523595145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523595156, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1710725523597417, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523597438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523597447, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523599696, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1710725523599719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523599729, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1710725523605383, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523605405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523605412, "dur":8018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710725523613459, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1710725523613482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710725523613489, "dur":19846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1710725523633354, "dur":171099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523253221, "dur":965, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523254186, "dur":2053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523256240, "dur":11870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1710725523268113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523268119, "dur":11372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1710725523279512, "dur":59478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523338993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523338999, "dur":7967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523346981, "dur":36821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523383806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523383814, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523385450, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523385589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523385594, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523386709, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523386861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523386868, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523388403, "dur":89281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523477690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523477702, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523479356, "dur":2432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523481795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523481803, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523485913, "dur":260792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523746710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710725523746737, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710725523748929, "dur":55540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523253258, "dur":934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523254192, "dur":2051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523256244, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1710725523256327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523263186, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1710725523265844, "dur":39504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame.exe" }}
+,{ "pid":12345, "tid":9, "ts":1710725523305354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523305363, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame.exe" }}
+,{ "pid":12345, "tid":9, "ts":1710725523307363, "dur":29534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523336901, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523336911, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523338316, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523338651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523338685, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523342029, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523342198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523342207, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523344380, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523344604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523344611, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523346079, "dur":61509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523407596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523407607, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523408544, "dur":1343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523409894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523409905, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523412436, "dur":41820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523454261, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523454270, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523456638, "dur":250890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523707534, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710725523707544, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710725523708694, "dur":95787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523253310, "dur":884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523254194, "dur":2050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523256246, "dur":12820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1710725523269069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523269076, "dur":10984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1710725523280080, "dur":37874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523317962, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523317982, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523319206, "dur":99304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523418517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523418528, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523422031, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523422289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523422295, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523423508, "dur":203396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523626910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710725523626922, "dur":8092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710725523635036, "dur":169485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523253351, "dur":850, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523254202, "dur":2054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523256257, "dur":12263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1710725523268526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523268533, "dur":11079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1710725523279631, "dur":57264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523336902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523336911, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523337944, "dur":1899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523339847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523339854, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523343486, "dur":35379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523378869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523378878, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523381174, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523381334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523381342, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523382629, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523382798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523382806, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523383820, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523384133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523384139, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523385606, "dur":36492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523422103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523422114, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523423277, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523423593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523423601, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523424990, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523425210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523425219, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523426518, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523426704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523426713, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523428148, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523428645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523428655, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523434957, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523435646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523435652, "dur":8109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523443793, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523444066, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523444078, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523446362, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523446497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523446506, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523450562, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523450840, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523450865, "dur":4774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523455661, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523456162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523456173, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523458471, "dur":104557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523563034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523563043, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523565422, "dur":47966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523613395, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523614861, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710725523616108, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1710725523616159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523616169, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1710725523619341, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1710725523619366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523619376, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1710725523621027, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1710725523621049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523621060, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1710725523622024, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1710725523622042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523622049, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1710725523623238, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1710725523623263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523623271, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1710725523624905, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1710725523624923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523624931, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1710725523626017, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1710725523626041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710725523626051, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1710725523633203, "dur":171254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523253412, "dur":796, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523254208, "dur":2038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523256247, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1710725523256325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523259904, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1710725523263126, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1710725523263172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523263179, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1710725523267617, "dur":31911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523299537, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523299551, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523300726, "dur":36831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523337576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523337586, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523342729, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523343150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523343158, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523345831, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523346074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523346082, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523347491, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523347685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523347693, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523352804, "dur":32609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523385418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523385428, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523387885, "dur":31103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523418992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523418999, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523423018, "dur":41583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523464610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523464622, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523466492, "dur":40978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523507476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523507484, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523508598, "dur":184510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523693117, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710725523693131, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710725523694774, "dur":109727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523253444, "dur":769, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523254213, "dur":2036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523256250, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1710725523256352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523264234, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1710725523267428, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523267639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523267835, "dur":11826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523279682, "dur":58334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523338022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523338029, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523343223, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523343470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523343479, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523346129, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523346277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523346283, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523347292, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523347459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523347466, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523350039, "dur":35965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523386008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523386015, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523388799, "dur":41288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523430093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523430103, "dur":13830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523443952, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523444902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523444910, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523449525, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523449699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523449709, "dur":7277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523457011, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523457197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523457206, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523459019, "dur":153879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523612906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523612918, "dur":3244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710725523616185, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1710725523616216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523616224, "dur":7162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1710725523623413, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1710725523623436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523623443, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1710725523626044, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1710725523626065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710725523626072, "dur":7357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1710725523633447, "dur":171087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710725523253499, "dur":719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710725523254219, "dur":2033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710725523256255, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1710725523256324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710725523260067, "dur":4737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1710725523264824, "dur":417619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710725523682459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710725523682467, "dur":25775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710725523708263, "dur":96225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523253631, "dur":601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523254232, "dur":2005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523256238, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1710725523256318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523260906, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1710725523263550, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1710725523263586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523263592, "dur":8188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1710725523271800, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523271923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523272438, "dur":7613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523280063, "dur":148828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523428937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523428948, "dur":14799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523443772, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523443920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523443928, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523445734, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523446527, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523446537, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523451327, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523451524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523451533, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523455946, "dur":160595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523616545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523616553, "dur":13478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710725523630057, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1710725523630091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710725523630099, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1710725523632562, "dur":171896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523253539, "dur":686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523254226, "dur":2024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523256251, "dur":12083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1710725523268362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523268366, "dur":10937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1710725523279330, "dur":58083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523337416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523337421, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523342215, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523342449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523342454, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523345858, "dur":53288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523399153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523399165, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523400252, "dur":48266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523448527, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523448580, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523452614, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523452798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523452840, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523456525, "dur":170524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523627053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523627065, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710725523630408, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build 5/Jonathan Story FPS Microgame_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1710725523630654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710725523630663, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build 5/Jonathan Story FPS Microgame_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1710725523632906, "dur":171549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710725523814460, "dur":1949, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1710725523823007, "dur": 810, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710725523822752, "dur": 1101, "ph": "X", "name": "Write chrome-trace events", "args": {} },
